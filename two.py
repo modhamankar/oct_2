@@ -10,7 +10,7 @@ B = [[5, 8, 1, 2],
 # result will be 3x4
 result = [[sum(a * b for a, b in zip(A_row, B_col))
                         for B_col in zip(*B)]
-                                for A_row in A]]]]]]
+                                for A_row in A]
  
 for r in result:
     print(r)
